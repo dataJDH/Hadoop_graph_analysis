@@ -16,7 +16,9 @@ It will generate a single JAR file in the target directory (i.e., `target/q1-1.0
 To execute the shell scripts from the command prompt, enter:
 
 `hadoop fs -mkdir data`
+
 `hadoop fs -put ~/graph1.tsv data`
+
 `hadoop fs -ls data`
 
 `mvn package`
